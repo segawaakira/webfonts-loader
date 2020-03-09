@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="svgtofont" horiz-adv-x="21">
+    <font-face font-family="svgtofont"
+      units-per-em="22" ascent="22"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="thumbs-up"
+      unicode="&#xEA01;"
+      horiz-adv-x="21" d="M1 11A9.5 9.5 0 0 1 20 11A9.5 9.5 0 0 1 1 11M6.0000005 11.0993424L8.7147557 8.1493395L14.5103938 12.9999998" />
+  </font>
+</defs>
+</svg>

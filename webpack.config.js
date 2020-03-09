@@ -6,6 +6,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const src = path.join(__dirname, 'src');
 const dist = path.join(__dirname, 'dist');
+const svgtofont = require('svgtofont');
+ 
+svgtofont({
+  src: path.resolve(process.cwd(), 'icon'), // svg path
+  dist: path.resolve(process.cwd(), 'fonts'), // output path
+  fontName: 'svgtofont', // font name
+  css: true, // Create CSS files.
+}).then(() => {
+  console.log('done!');
+});
 
 module.exports = {
   // developmentモードで実行します
