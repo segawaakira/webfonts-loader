@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "custom-icons";
-	src: url("custom-icons.eot?976cfc2cc0454786c731c674cf780014?#iefix") format("embedded-opentype"),
-url("custom-icons.woff2?976cfc2cc0454786c731c674cf780014") format("woff2"),
-url("custom-icons.woff?976cfc2cc0454786c731c674cf780014") format("woff");
+	src: url("custom-icons.eot?713ec60e13d23d6d60a4b41bc05f9032?#iefix") format("embedded-opentype"),
+url("custom-icons.woff2?713ec60e13d23d6d60a4b41bc05f9032") format("woff2"),
+url("custom-icons.woff?713ec60e13d23d6d60a4b41bc05f9032") format("woff");
 }
 
 .custom {
@@ -24,7 +24,4 @@ url("custom-icons.woff?976cfc2cc0454786c731c674cf780014") format("woff");
 }
 .custom-back:before {
 	content: "\f103";
-}
-.custom-thumbs-up:before {
-	content: "\f104";
 }

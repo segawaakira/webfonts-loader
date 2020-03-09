@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="custom-icons" horiz-adv-x="16">
+    <font-face font-family="custom-icons"
+      units-per-em="26" ascent="26"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="triangle-down"
+      unicode="&#xF101;"
+      horiz-adv-x="26" d=" M0 19.5L13 6.5L26 19.5z" />
+    <glyph glyph-name="close"
+      unicode="&#xF102;"
+      horiz-adv-x="26" d=" M4.3333333333333 26L0 21.6666666666667L8.6666666666667 13L0 4.3333333333333L4.3333333333333 0L13 8.6666666666667L21.6666666666667 0L26 4.3333333333333L17.3333333333333 13L26 21.6666666666667L21.6666666666667 26L13 17.3333333333333L4.3333333333333 26z" />
+    <glyph glyph-name="back"
+      unicode="&#xF103;"
+      horiz-adv-x="16" d=" M0 13L13 26L16 23L6 13L16 3L13 0L0 13" />
+  </font>
+</defs>
+</svg>

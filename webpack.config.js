@@ -10,6 +10,9 @@ const webfontsGenerator = require('webfonts-generator');
 
 webfontsGenerator({
   files: [
+    path.resolve(src, 'icon/triangle-down.svg'),
+    path.resolve(src, 'icon/close.svg'),
+    path.resolve(src, 'icon/back.svg'),
     path.resolve(src, 'icon/thumbs-up.svg'),
   ],
   dest: path.resolve(dist, 'src/custom-fonts'),
