@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>custom-icons</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 10px 20px;
+		}
+
+		.preview {
+			line-height: 2em;
+		}
+
+		.preview__icon {
+			display: inline-block;
+			width: 32px;
+			text-align: center;
+		}
+
+		.icon {
+			display: inline-block;
+			font-size: 16px;
+		}
+
+		@font-face {
+	font-family: "custom-icons";
+	src: url("custom-icons.eot?1dc0bb662dddca4678c9cc96203adf8e?#iefix") format("embedded-opentype"),
+url("custom-icons.woff2?1dc0bb662dddca4678c9cc96203adf8e") format("woff2"),
+url("custom-icons.woff?1dc0bb662dddca4678c9cc96203adf8e") format("woff");
+}
+
+.custom {
+	line-height: 1;
+}
+
+.custom:before {
+	font-family: custom-icons !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.custom-thumbs-up:before {
+	content: "\f101";
+}
+
+	</style>
+</head>
+<body>
+	<h1>custom-icons</h1>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class=" custom-thumbs-up"></span>
+		</span>
+		<span>thumbs-up</span>
+	</div>
+</body>
+</html>

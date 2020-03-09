@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "custom-icons";
+	src: url("custom-icons.eot?4036aa65ef8c7c7fb1142026131edc4a?#iefix") format("embedded-opentype"),
+url("custom-icons.woff2?4036aa65ef8c7c7fb1142026131edc4a") format("woff2"),
+url("custom-icons.woff?4036aa65ef8c7c7fb1142026131edc4a") format("woff");
+}
+
+.custom {
+	line-height: 1;
+}
+
+.custom:before {
+	font-family: custom-icons !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.custom-thumbs-up:before {
+	content: "\f101";
+}

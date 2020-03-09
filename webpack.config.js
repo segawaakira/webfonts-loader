@@ -6,6 +6,26 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const src = path.join(__dirname, 'src');
 const dist = path.join(__dirname, 'dist');
+const webfontsGenerator = require('webfonts-generator');
+
+webfontsGenerator({
+  files: [
+    path.resolve(src, 'icon/thumbs-up.svg'),
+  ],
+  dest: path.resolve(dist, 'src/custom-fonts'),
+  fontName: 'custom-icons',
+  html: true,
+  templateOptions: {
+    baseClass: 'custom',
+    classPrefix: 'custom-'
+  }
+}, function(error) {
+  if (error) {
+    console.log('Fail!', error);
+  } else {
+    console.log('Done!');
+  }
+});
 
 module.exports = {
   // developmentモードで実行します
